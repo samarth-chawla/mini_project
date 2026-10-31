@@ -1,0 +1,93 @@
+{
+  "source_video": "tr2.mp4",
+  "source_bytes": 5162211,
+  "frame_size": [
+    1100,
+    700
+  ],
+  "red_light": [
+    [
+      1017,
+      31
+    ],
+    [
+      1059,
+      31
+    ],
+    [
+      1059,
+      79
+    ],
+    [
+      1017,
+      79
+    ]
+  ],
+  "green_light": [
+    [
+      1017,
+      142
+    ],
+    [
+      1059,
+      142
+    ],
+    [
+      1059,
+      191
+    ],
+    [
+      1017,
+      191
+    ]
+  ],
+  "road_polygon": [
+    [
+      420,
+      350
+    ],
+    [
+      1055,
+      350
+    ],
+    [
+      1095,
+      695
+    ],
+    [
+      0,
+      695
+    ]
+  ],
+  "monitoring_line": [
+    [
+      113,
+      602
+    ],
+    [
+      1084,
+      602
+    ]
+  ],
+  "line_kind": "estimated_virtual",
+  "line_note": "No verified physical stop line visible; estimated foreground road boundary.",
+  "transverse_marking_candidates": [],
+  "yellow_light": [
+    [
+      1017,
+      86
+    ],
+    [
+      1059,
+      86
+    ],
+    [
+      1059,
+      135
+    ],
+    [
+      1017,
+      135
+    ]
+  ]
+}

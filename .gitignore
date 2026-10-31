@@ -1,0 +1,70 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+
+# Python caches and test reports
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Frontend build outputs
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vercel/
+
+# Downloaded model weights and model caches
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+/backend/.plate_ocr/
+/backend/.easyocr/
+/backend/.ultralytics_config/
+/backend/.ultralytics_profile/
+/backend/Ultralytics/
+/backend/runs/
+/backend/datasets/
+/backend/weights/
+
+# Local input videos and generated annotated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Runtime records, evidence, and temporary validation outputs
+/backend/violations.json
+/backend/plate_detections.json
+/frontend/public/violations/
+/backend/anpr_preview/
+/backend/.anpr_validation/
+/backend/anpr-check-*/
+/backend/*_camera.jpg
+
+# Logs and temporary downloads/writes
+*.log
+*.log.*
+*.tmp
+*.download
+
+# Local environment settings (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

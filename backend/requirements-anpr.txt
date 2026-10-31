@@ -1,0 +1,12 @@
+# Plate-specific OCR packages for the existing backend virtual environment.
+# Install with --no-deps to preserve its GUI-enabled opencv-python.
+# Existing requirements.txt / PyTorch / SciPy / Pillow are prerequisites.
+fast-plate-ocr==1.1.0
+onnxruntime==1.20.1
+coloredlogs==15.0.1
+humanfriendly==10.0
+flatbuffers==25.2.10
+rich==14.0.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pygments==2.19.2
